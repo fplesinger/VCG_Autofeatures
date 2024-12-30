@@ -11,7 +11,7 @@ Therefore, sub-folders like **figs_maps** contain all generated maps, including 
 It also contains the final KDE maps and the raw form of generated tables before being formatted in MS Excel (folder **results_data**).
 The subfolder **results** contains other raw images used in the paper (usually after processing in Adobe Illustrator).
 
-Due to sensitive information, we had to change a few lines of code in four files. These places usually fix data—a misspelled name from one table does not fit the name in another table, etc. These places are commented on and contain the keyword "ANONYMIZED" in the commented block.  
+We had to manually fix few mistakes in recordings (pairing between data tables and files). However, these fixes used sensitive information, and we had to anonymize these lines of code in four files before publishing. These places are commented on and contain the keyword "ANONYMIZED" in the commented block.  
 
 The following table shows all computation sub-steps and their description. These sub-steps should be run consecutively because most produce results
 for the following step. Essential steps (the topic of the paper) are **bold**, and steps built just for our further insight are _italic_. 
