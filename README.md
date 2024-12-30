@@ -6,6 +6,9 @@ This archive contains all computational steps used to produce results in the upc
 
 ![image](https://github.com/user-attachments/assets/d03da3ce-4c49-4d0b-8dce-74203af461d4)
 
+The version linked to the manuscript is v1.0.0.1
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14579062.svg)](https://doi.org/10.5281/zenodo.14579062)
 
 Although we made codes publically available, we are not authorized to publish source ECG and clinical data (provided codes cannot produce results without input data).
 
