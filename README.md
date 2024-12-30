@@ -4,7 +4,7 @@
 This archive contains all computational steps used to produce results in the upcoming paper: 
 **Automatically Optimized Vectorcardiographic Features are Associated with Recurrence of Atrial Fibrillation after Electrical Cardioversion** (under revision now).
 
-Although we made codes publically available, we are not authorized to publish source ECG and clinical data (and therefore, provided codes cannot produce results).
+Although we made codes publically available, we are not authorized to publish source ECG and clinical data (provided codes cannot produce results without input data).
 
 However, all computational code is included, and we added results of several steps if these results did not contain single subject-specific data.
 Therefore, sub-folders like **figs_maps** contain all generated maps, including raw and smoothed versions as well. 
