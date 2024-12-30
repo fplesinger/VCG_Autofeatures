@@ -4,20 +4,23 @@
 This archive contains all computational steps used to produce results in the upcoming paper: 
 **Automatically Optimized Vectorcardiographic Features are Associated with Recurrence of Atrial Fibrillation after Electrical Cardioversion** (under revision now).
 
+![image](https://github.com/user-attachments/assets/d03da3ce-4c49-4d0b-8dce-74203af461d4)
+
+
 Although we made codes publically available, we are not authorized to publish source ECG and clinical data (provided codes cannot produce results without input data).
 
 However, all computational code is included, and we added results of several steps if these results did not contain single subject-specific data.
-Therefore, sub-folders like **figs_maps** contain all generated maps, including raw and smoothed versions as well. 
+Therefore, sub-folders like **figs_maps** contain all generated maps, including raw and smoothed versions. 
 It also contains the final KDE maps and the raw form of generated tables before being formatted in MS Excel (folder **results_data**).
 The subfolder **results** contains other raw images used in the paper (usually after processing in Adobe Illustrator).
 
-We had to manually fix few mistakes in recordings (pairing between data tables and files). However, these fixes used sensitive information, and we had to anonymize these lines of code in four files before publishing. These places are commented on and contain the keyword "ANONYMIZED" in the commented block.  
+We had to manually fix a few data mistakes (pairing between data tables and files). However, these fixes used sensitive information, and we had to anonymize these lines of code in four files before publishing. These places are commented on and contain the keyword "ANONYMIZED" in the commented block.  
 
 ## Description of included code files
 
 The following table shows all computation sub-steps and their description. These sub-steps should be run consecutively because most produce results
-for the following step. Essential steps (the topic of the paper) are **bold**, and steps built just for our further insight are _italic_. 
-When description refers to a Figure, it means it was exported as an SVG/PNG file, improved for visual appearance in Adobe Illustrator, and exported for the manuscript as a raster image.  
+for the following step. Essential steps (the topic of the paper) are **bold** (steps 6, 7, and 8), and steps built just for our further insight are _italic_. 
+When the description refers to a figure, this step produces an SVG/PNG file(s). The produced image file is later improved for visual appearance in vector graphics editing software and exported as a raster image for the manuscript.  
 
 | Script name                                                                            | Description                                                                                                                                                                                                      |
 |----------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
