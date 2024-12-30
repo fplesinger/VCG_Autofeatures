@@ -13,6 +13,8 @@ The subfolder **results** contains other raw images used in the paper (usually a
 
 We had to manually fix few mistakes in recordings (pairing between data tables and files). However, these fixes used sensitive information, and we had to anonymize these lines of code in four files before publishing. These places are commented on and contain the keyword "ANONYMIZED" in the commented block.  
 
+## Description of included code files
+
 The following table shows all computation sub-steps and their description. These sub-steps should be run consecutively because most produce results
 for the following step. Essential steps (the topic of the paper) are **bold**, and steps built just for our further insight are _italic_. 
 When description refers to a Figure, it means it was exported as an SVG/PNG file, improved for visual appearance in Adobe Illustrator, and exported for the manuscript as a raster image.  
